@@ -205,7 +205,7 @@ int _tmain(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(width, height);
-    glutCreateWindow("noobtuts.com Pong");
+    glutCreateWindow("Pong");
  
 	// Register callback functions  
     glutDisplayFunc(draw);
